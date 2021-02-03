@@ -1,0 +1,56 @@
+.eventBannerContent{
+    box-shadow: 0 0 5px #ddd;;
+}
+.eventInfo{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color:#39364f;
+    padding: 20px 20px;
+    box-shadow:  0 0 10px #ddd;
+    text-align: center;
+}
+.eventBannerContent  img{
+    width: 100%;
+}
+.otherEvents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.registerForm{
+    width: 350px;
+    padding: 20px;
+}
+.registerForm h4{
+    margin: 5px 0;
+}
+.registerForm input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.eventInfo i{
+    display: block;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.eventInfoTitile{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.register{
+    display: flex;
+    align-items: center;
+}
+.registerBtn{
+    background: #f05537;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: bold;
+    align-items: center;
+}

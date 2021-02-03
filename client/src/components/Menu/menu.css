@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logoContainer a{
+    text-decoration: none;
+    color:#f05537
+}
+.viewMore{
+    display: block;
+    
+    background: #fff;
+    color:#222;
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 5px 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.eventContent h1{
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+.eventContent p{
+    line-height: 23px;
+}
+.eventContent{
+    background: #fff;
+    margin-top: 10px;
+    padding: 20px;
+}
+.MainHeader{
+    padding: 20px 0;
+    box-shadow: 0 5px 10px #ddd;
+}
+.logoContainer{
+    align-items: center;
+}
+.Menu{
+    justify-content: right;    
+}
+.Menu li{
+    display: inline-block
+}
+.Menu li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color:#6f7287
+}

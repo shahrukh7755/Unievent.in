@@ -1,0 +1,20 @@
+.dahsbordGrid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.DashboardMenu a{
+    display: block;
+    font-size: 20px;
+    color:#f05537;
+    padding: 5px 10px;
+}
+.DashboardMenu{
+    background:#f7f4f4;
+    padding: 30px 0;
+    height: 100vh;
+}
+.noEvent{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+}

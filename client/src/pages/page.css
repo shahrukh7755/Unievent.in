@@ -1,0 +1,83 @@
+.EventsPages h1{
+padding: 20px 0;
+/* font-family: 'PT Sans Caption', sans-serif; */
+font-size: 25px;
+font-weight: bold;
+
+}
+.active{
+    color: #f05537 !important;
+
+}
+.MainColor{
+    color: #f05537;
+}
+
+.danger{
+    background: red;
+    color:#fff;
+}
+.sucess{
+    background: green;
+    color:#fff
+}
+.mainCover{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.searchBy{
+    margin: 20px 0;
+    padding: 0;
+    
+}
+.searchBy li{
+    list-style-type: none;
+    display: inline;
+}
+.searchBy li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color:#39364f;
+    font-weight: bold;
+}
+
+.RegistrationFrom{
+    max-width: 300px;
+    margin: 0 auto;
+    -moz-height: calc(100%-100px);
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.RegistrationFrom h1{
+    margin: 5px 0;
+    text-align: center;   
+}
+.RegistrationFrom i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+.RegistrationFrom p{
+    text-align: center;
+    padding:10px
+}
+.RegistrationFrom input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* font-size: 20px; */
+}
+.RegistrationFrom input[type="submit"]{
+    background:#f05537;
+    color:#fff;
+
+}
+.RegistrationFrom input::placeholder{
+    font-size: 15px;
+}

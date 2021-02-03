@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  color:#39364f;
+  height: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
